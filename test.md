@@ -1,3 +1,4 @@
+```mermaid
 graph LR
     A[Start: Binary Image Input] --> B{Choose K};
     B --> C{Calculate Distance to Training Images};
