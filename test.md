@@ -1,9 +1,8 @@
-```mermaid
 graph LR
     A[Start: Binary Image Input] --> B{Choose K};
     B --> C{Calculate Distance to Training Images};
     C --> D{Find K Nearest Neighbors};
-    D --> E{Count Neighbors' Labels (0 or 1)};
+    D --> E{Count Neighbors\' Labels \(0 or 1\)};
     E --> F{Majority Vote: Predict Class};
     F --> G[Output: Predicted Class (0 or 1)];
     G --> H[End];
